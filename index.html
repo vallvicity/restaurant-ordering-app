@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id='container'>
+            <div class="cover-title">
+                <h1>Jimmy's Diner</h1>
+                <p>The best burgers and pizzas in town.</p>
+            </div>
+            <div id="hero"></div>
+            <div id="order-list"></div>
+        </div>
+            <div id="modal" class="modal">
+                <h4>Enter card details</h4>
+                <form id ="pay-form">
+                    <input 
+                        type="text" 
+                        name="fullName" 
+                        placeholder="Enter your name" 
+                        required>
+                    </input>
+                    <input
+                        type="text"
+                        name="creditCard"
+                        placeholder="Enter card number" 
+                        required>
+                    </input>
+                    <input 
+                        type="text"
+                        name="cvv"
+                        minlength="3"
+                        maxlength="3"
+                        placeholder="Enter CVV" 
+                        required>
+                    </input>
+                    <button id="submit-data" type="submit">Pay</button>
+                </form>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

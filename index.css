@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', system-ui;
+} 
+
+#container {
+    position: relative;
+    display: block;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.cover-title {
+    background-image: url("images/cover.png");
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: 50px;
+    line-height: 14px;
+}
+
+.cover-title h1, 
+.cover-title p{
+    margin-left: 30px;
+}
+
+#hero {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.element {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEDEDE;
+    margin: 0 auto;
+}
+
+.element-icon {
+    display: inline-flex;
+    font-size: 60px;
+}
+
+.element-description {
+    margin-left: -200px;
+    line-height: 16px;
+}
+
+.element-description p {
+    color: #8B8B8B;
+}
+
+.item-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: white;
+    border: 1.5px solid #DEDEDE;
+    font-size: 32px;
+}
+
+.ordered-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 50px;
+}
+
+.item-description {
+    display: flex;
+}
+
+.item-description button {
+    border: none;
+    background: none;
+    color: #BBBBBB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-left: 6px;
+    
+}
+
+#order-list {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ordered-item{
+    line-height: 2px;
+}
+
+.total-price {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    line-height: 0px;
+    border-top: 2px solid black;
+    
+}
+
+.order-btn {
+    width: 80%;
+    background-color: #16DB99;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.modal {
+    background-color: white;;
+    width: 400px;
+    height: 450px;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0 0 20px #8B8B8B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+form input {
+   height: 50px;
+   width: 280px; 
+}
+
+ form button {
+    width: 100%;
+    background-color: #16DB99;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+ }
+ 
+ .payment-done {
+     background-color: #ECFDF5;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 40px auto;
+     color: #065F46;
+     width: 80%;
+     height: 120px;
+    
+     
+ }
+
